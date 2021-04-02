@@ -22,12 +22,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button testOkhttp = findViewById(R.id.btn_okhttp);
-        testOkhttp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "???", Toast.LENGTH_SHORT).show();
-            }
-        });
+
     }
 }
